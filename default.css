@@ -354,12 +354,13 @@ h6 {
 
 .tech-stack {
    display: flex;
-   justify-content: center;
-   align-content: center;
+   flex-wrap: wrap;
+   margin-bottom: 10px;
 }
 
 .tech-stack * {
-   margin: 5px;
+   margin-right: 5px;
+   margin-bottom: 5px;
 }
 
 #contact-form {
